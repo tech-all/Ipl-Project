@@ -1023,23 +1023,7 @@ $(function () {
         }
         $('.mainPart').append(pagepart)
 
-        var rightpart = $("<div>").addClass('rightpart')
-        pagepart.append(rightpart)
-        var box = $("<div>").addClass('box')
-        rightpart.append(box)
-        var h1item1 = $("<h1>").addClass('item').text("Top Batsman")
-        var spanitem1 = $('<span>').addClass('topbatsman value').text(topbatsman)
-        h1item1.append(spanitem1)
-        box.append(h1item1)
-        var h1item2 = $("<h1>").addClass('item').text("Top Bowler")
-        var spanitem2 = $('<span>').addClass('topbowler value').text(topbowler)
-        h1item2.append(spanitem2)
-        box.append(h1item2)
-        var h1item3 = $("<h1>").addClass('item').text("champion ownership count")
-        var spanitem3 = $('<span>').addClass('count value').text(champoinshipwoncount)
-        h1item3.append(spanitem3)
-        box.append(h1item3)
-
+        
     }
 
 })
